@@ -1,0 +1,11 @@
+/**
+Title: composer-list.component.css
+Author: Walter McCue
+Date: 01/13/23
+Description: styling for the composer-list.component.html file
+*/
+
+.thead-dark {
+  background-color: #282828;
+  color: #fff
+}
