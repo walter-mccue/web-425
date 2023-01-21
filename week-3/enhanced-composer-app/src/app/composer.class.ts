@@ -1,4 +1,15 @@
+/**
+ * Title: composer.class.ts
+ * Author: Walter McCue
+ * Date: 01/21/23
+ * Description: creates the composer class for the enhanced-composer-app project
+*/
+
+// import statement
+
 import { IComposer } from './composer.interface';
+
+// exports the composer array and getComposers/getComposer functions
 
 export class Composer {
   composers: Array<IComposer>;

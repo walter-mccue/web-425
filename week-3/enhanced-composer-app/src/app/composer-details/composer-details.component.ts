@@ -1,3 +1,10 @@
+/**
+ * Title: composer-details.component.ts
+ * Author: Walter McCue
+ * Date: 01/21/23
+ * Description: composer-details.component.ts file for the enhanced-composer-app project
+*/
+
 import { Component, OnInit } from '@angular/core';
 import { IComposer } from '../composer.interface';
 import { Composer } from '../composer.class';
