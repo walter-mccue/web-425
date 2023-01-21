@@ -1,0 +1,35 @@
+<!--
+  Title: signin.component.html
+  Author: Walter McCue
+  Date: 01/21/23
+  Description: html for the secure-profile-app project
+-->
+
+<div class="card signin-container">
+
+  <div class="card-body">
+
+    <h3 class="card-title">Sign in</h3>
+
+    <form class="card-text">
+
+      <div class="form-group">
+        <label for="txtuserName">Username:</label>
+        <input type="text" class="form-control" id="txtUserName" placeholder="Enter your username" />
+      </div>
+
+      <div class="form-group">
+        <label for="txtPassword">Password:</label>
+        <input type="password" class="form-control" id="txtPassword" placeholder="Enter Your Password" />
+      </div>
+      <br />
+
+      <div class="form-group">
+        <button class="btn btn-primary float-end" (click)="signin()">Submit</button>
+      </div>
+
+    </form>
+
+  </div>
+
+</div>
