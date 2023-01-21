@@ -1,0 +1,12 @@
+/**
+Title: signin.component.css
+Author: Walter McCue
+Date: 01/21/23
+Description: Styling for signin.component.html
+*/
+
+.signin-container {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
