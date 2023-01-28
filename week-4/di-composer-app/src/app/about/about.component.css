@@ -1,0 +1,20 @@
+/**
+Title: about.component.css
+Author: Walter McCue
+Date: 01/13/23
+Description: styling for the about.component.html file
+*/
+
+.align-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:cadetblue
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
