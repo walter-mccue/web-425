@@ -1,0 +1,16 @@
+/**
+Title: book-list.component.scss
+Author: Walter McCue
+Date: 02/05/23
+Description: component styling for the in-n-out-books project
+*/
+
+
+.a-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.a-link:hover {
+  text-decoration: underline;
+}
