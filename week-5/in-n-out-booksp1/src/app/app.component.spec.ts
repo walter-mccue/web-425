@@ -1,3 +1,10 @@
+/**
+ * Title: app.component.spec.ts
+ * Author: Walter McCue
+ * Date: 02/05/23
+ * Description: ts file for the in-n-out-books project
+*/
+
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
@@ -23,7 +30,7 @@ describe('AppComponent', () => {
   it(`should have as title 'in-n-out-booksp1'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('in-n-out-booksp1');
+    expect(app.assignment).toEqual('in-n-out-booksp1');
   });
 
   it('should render title', () => {
