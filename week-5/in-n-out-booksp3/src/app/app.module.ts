@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BookListComponent } from './book-list/book-list.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { BookDetailsDialogComponent } from './book-details-dialog/book-details-dialog.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
@@ -21,13 +22,15 @@ import { MatListModule } from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTableModule } from '@angular/material/table';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
     AppComponent,
     BookListComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    BookDetailsDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,8 @@ import { MatTableModule } from '@angular/material/table';
     MatListModule,
     FlexLayoutModule,
     MatIconModule,
-    MatTableModule
+    MatTableModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
