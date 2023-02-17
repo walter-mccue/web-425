@@ -1,0 +1,16 @@
+/**
+Title: base-layout.component.css
+Author: Walter McCue
+Date: 02/12/23
+Description: styling for the gpa-calculator-app project
+*/
+
+.logo {
+  margin-top: 5px;
+}
+
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}

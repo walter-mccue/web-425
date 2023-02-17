@@ -1,0 +1,14 @@
+/**
+Title: not-found.component.css
+Author: Walter McCue
+Date: 02/12/23
+Description: styling for the gpa-calculator-app project
+*/
+
+div {
+  margin-top: 100px;
+}
+img {
+  width: 50%;
+  margin-left: 100px;
+}
