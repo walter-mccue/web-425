@@ -1,3 +1,10 @@
+/**
+ * Title: sign-in.component.ts
+ * Author: Walter McCue
+ * Date: 02/19/23
+ * Description: ts for the gpa-calculator-app project
+*/
+
 import { Component, OnInit } from '@angular/core';
 import { SignInService } from '../sign-in.service';
 import { Router } from '@angular/router';

@@ -1,3 +1,10 @@
+/**
+ * Title: sign-in.component.spec.ts
+ * Author: Walter McCue
+ * Date: 02/19/23
+ * Description: ts for the gpa-calculator-app project
+*/
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SignInComponent } from './sign-in.component';

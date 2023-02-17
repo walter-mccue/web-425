@@ -1,3 +1,10 @@
+/**
+ * Title: sign-in.guard.ts
+ * Author: Walter McCue
+ * Date: 02/19/23
+ * Description: ts for the gpa-calculator-app project
+*/
+
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot, UrlTree } from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';

@@ -1,3 +1,10 @@
+/**
+ * Title: sign-in.service.ts
+ * Author: Walter McCue
+ * Date: 02/19/23
+ * Description: ts for the gpa-calculator-app project
+*/
+
 import { Injectable } from '@angular/core';
 
 @Injectable({
