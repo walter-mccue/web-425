@@ -1,0 +1,48 @@
+<!--
+  Title: base-layout.component.html
+  Author: Walter McCue
+  Date: 02/12/23
+  Description: html for the gpa-calculator-app project
+-->
+
+<mat-toolbar color="primary">
+
+  <mat-toolbar-row>
+
+    <div class="logo"></div>
+
+      <img src="./assets/gpa-calculator-app.png" height="80" />
+
+    <div style="width: 80%">
+
+      <div fxLayout="row wrap" fxLayoutAlign="end start">
+        <button mat-button routerLink="/">Home</button>
+        <button mat-button (click)="signOut()">Sign Out</button>
+      </div>
+
+    </div>
+
+  </mat-toolbar-row>
+
+</mat-toolbar>
+
+<br />
+
+<div fxLayout="row wrap">
+
+  <div fxFlex>
+
+    <div class="main-container">
+      <mat-card-title>{{ assignment }}</mat-card-title>
+
+      <br /><br />
+
+      <mat-card-content>
+        <router-outlet></router-outlet>
+      </mat-card-content>
+
+    </div>
+
+  </div>
+
+</div>
