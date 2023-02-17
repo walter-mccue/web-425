@@ -13,5 +13,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  assignment = 'Exercise 7.3 - Form Validation';
+  assignment = 'GPA Calculator';
 }

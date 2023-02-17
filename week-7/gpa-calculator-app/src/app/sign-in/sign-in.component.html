@@ -25,6 +25,14 @@
           {{ errorMessage }}
         </div>
 
+        <div *ngIf="form['studentId'].errors && form['studentId'].touched">
+
+          <div class="msg-error">
+            Student ID must be a numeric value.
+          </div>
+
+        </div>
+
           <form [formGroup]="signinForm" (ngSubmit)="onSubmit(); signinForm.reset()">
 
             <mat-card-content>
@@ -35,7 +43,7 @@
                   Student ID
                 </mat-label>
 
-                <input type="text" matInput formControlName="studentId" id="txtStudentId" name="txtStudentId" />
+                <input type="text" required matInput formControlName="studentId" id="txtStudentId" name="txtStudentId" />
 
               </mat-form-field>
 
@@ -43,7 +51,7 @@
 
             <mat-card-actions>
 
-              <button type="submit" fxFlex mat-raised-button color="primary">
+              <button type="submit" [disabled]="!signinForm.valid" fxFlex mat-raised-button color="primary">
                 Submit
               </button>
 
