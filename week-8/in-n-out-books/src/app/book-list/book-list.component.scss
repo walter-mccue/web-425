@@ -6,11 +6,27 @@ Description: component styling for the in-n-out-books project
 */
 
 
-.a-link {
+.grid-container__ahref {
   text-decoration: none;
+}
+
+.grid-container__ahref:hover {
+  text-decoration: underline;
   cursor: pointer;
 }
 
-.a-link:hover {
-  text-decoration: underline;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 25px;
+}
+
+.grid-container__item {
+  padding: 20px;
+}
+
+.spinner {
+  margin-top: 2%;
+  margin-left: 45%;
 }
